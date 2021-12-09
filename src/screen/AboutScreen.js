@@ -52,9 +52,11 @@ const AboutScreen = () => {
         ></div>
         <div className="about-team-content container">
           <h3 className="brand-secondary-color">IL NOSTRO TEAM</h3>
-          {teamCards.map((card) => {
-            return <Card key={card.title} {...card} />;
-          })}
+          <div className="card-section">
+            {teamCards.map((card) => {
+              return <Card key={card.title} {...card} />;
+            })}
+          </div>
         </div>
       </section>
     </>
