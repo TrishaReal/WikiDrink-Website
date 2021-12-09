@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
   //(8) Mostra e nascondi sidebar: creo state per iniziare.
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const [query, setQuery] = useState();
+  const [query, setQuery] = useState("negroni");
 
   //(35a).
   const [scrollPosition, setScrollPosition] = useState(0);
